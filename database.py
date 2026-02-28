@@ -10,7 +10,7 @@ import contextlib
 from datetime import datetime
 
 # PostgreSQL Configuration
-DATABASE_URL = "postgresql://db_r4rd_user:ciQ65QdQFf4hxtpuXTGNc6AT9TAf68u7@dpg-d6cs8i95pdvs739lace0-a/db_r4rd"
+DATABASE_URL = "postgresql://neondb_owner:npg_L8gaYShB5meR@ep-orange-scene-ai6ffy7v-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 import psycopg2
 from psycopg2.extras import RealDictCursor
